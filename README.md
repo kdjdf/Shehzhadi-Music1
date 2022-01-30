@@ -1,8 +1,8 @@
  <h2 align="centre">🆂︎ʜᴇᴢʜᴀᴅɪ 🅼︎ᴜsɪᴄ</h2>
 
-### 🆂︎ʜᴇᴢʜᴀᴅɪ 🅼︎ᴜsɪᴄ ɪꜱ ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴜꜱᴇʀʙᴏᴛ ᴛᴏ ᴘʟᴀʏ ꜱᴏɴɢꜱ ᴀɴᴅ ᴠɪᴅᴇᴏꜱ ɪɴ ᴛᴇʟᴇɢʀᴀᴍ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ ꜱᴜᴍɪᴛʏᴀᴅᴀᴠ...
+### 🆂︎ʜᴇᴢʜᴀᴅɪ 🅼︎ᴜsɪᴄ ɪꜱ ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴜꜱᴇʀʙᴏᴛ ᴛᴏ ᴘʟᴀʏ ꜱᴏɴɢꜱ ᴀɴᴅ ᴠɪᴅᴇᴏꜱ ɪɴ ᴛᴇʟᴇɢʀᴀᴍ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ ꜱᴜᴍɪᴛʏᴀᴅᴀᴠ.
 
-<p align="center"><a href="https://t.me/World_FriendShip_Zone"><img src="https://telegra.ph/file/d823cdcd38ff79ac33752.jpg" width="300"></a></p>
+<p align="center"><a href="https://t.me/World_FriendShip_Zone"><img src="https://telegra.ph/file/46030a142f5bd7f03c948.jpg" width="300"></a></p>
 
 
 
