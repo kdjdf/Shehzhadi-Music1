@@ -1,46 +1,42 @@
-##### 🎶 Music Dan Video Player UserBot 🎶
-### 🤖 Telegram UserBot Untuk Memutar Lagu Dan Video Di Obrolan Suara Telegram.
+ <h2 align="centre">🆂︎ʜᴇᴢʜᴀᴅɪ 🅼︎ᴜsɪᴄ</h2>
 
-# ✨ Didukung Oleh 
-- [PyTgCalls](https://github.com/pytgcalls/pytgcalls)
-- [Pyrogram](https://github.com/pyrogram/pyrogram)
+### 🆂︎ʜᴇᴢʜᴀᴅɪ 🅼︎ᴜsɪᴄ ɪꜱ ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴜꜱᴇʀʙᴏᴛ ᴛᴏ ᴘʟᴀʏ ꜱᴏɴɢꜱ ᴀɴᴅ ᴠɪᴅᴇᴏꜱ ɪɴ ᴛᴇʟᴇɢʀᴀᴍ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ ꜱᴜᴍɪᴛʏᴀᴅᴀᴠ...
+
+<p align="center"><a href="https://t.me/World_FriendShip_Zone"><img src="https://telegra.ph/file/d823cdcd38ff79ac33752.jpg" width="300"></a></p>
 
 
-# 📝 Persyaratan
-- Python 3.8+
-- FFMPEG
-- Nodejs v16+
 
-## 🛠 MENU BANTUAN
+### ꜱᴜᴘᴘᴏʀᴛ ᴀɴᴅ ᴜᴘᴅᴀᴛᴇꜱ🎑
+<a href="https://t.me/World_FriendShip_Zone"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram">
 
-#### ⚡ PERINTAH UNTUK SEMUA ORANG
-- `/play [judul lagu | link youtube | balas file audio]` - untuk memutar lagu
-- `/vplay [judul video | link youtube | balas file video]` - untuk memutar video
-- `/playlist` untuk melihat daftar putar
-- `/ping` - untuk cek status
-- `/help` - untuk melihat daftar perintah
+# ɢᴇɴᴇʀᴀᴛᴇ ᴘʏʀᴏɢʀᴀᴍ sᴛʀɪɴɢ sᴇssɪᴏɴ
 
-#### ⚡ PERINTAH UNTUK SEMUA ADMIN
-- `/resume` - untuk melanjutkan pemutaran lagu atau video
-- `/pause` - untuk untuk menjeda pemutaran lagu atau video
-- `/skip` - untuk melewati lagu atau video
-- `/end` - untuk mengakhiri pemutaran
+[![ɢᴇɴᴇʀᴀᴛᴇ ꜱᴇꜱꜱɪᴏɴ](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@Sumit9969/Pyrogram-String-Genrator)
 
-## 💡 Deployment
 
-## 💜 Heroku
+# ᴅᴇᴘʟᴏʏ ᴛᴏ ʜᴇʀᴏᴋᴜ
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Sumit9969/Shezhadi-Music)
 
+### ʜᴇʟᴘ ᴍᴇɴᴜ
 
-## 📚 Variabel Yang Dibutuhkan
-- `API_ID` - Dapatkan Dari [my.telegram.org](https://my.telegram.org)
-- `API_HASH` - Dapatkan Dari [my.telegram.org](https://my.telegram.org)
-- `SESSION` - Sesi String Pyrogram. Dapatkan String Dari [Sini](https://replit.com/@GoodBoysExe/string-session?lite=1&outputonly=1)
-- `SUDO_USER` - ID Akun Telegram Yang Digunakan Sebagai Admin
+### ᴄᴏᴍᴍᴀɴᴅ ꜰᴏʀ ᴇᴠᴇʀʏᴏɴᴇ
+- `/play [song title | youtube link | reply audio file]` - to play the song
+- `/vplay [video title | youtube link | reply video file]` - to play video
+- `/playlist` to view playlist
+- `/ping` - to check status
+- `/help` - to see a list of commands
 
+### ᴄᴏᴍᴍᴀɴᴅ ꜰᴏʀ ᴀʟʟ ᴀᴅᴍɪɴꜱ
+- `/resume` - to continue playing the song or video
+- `/pause` - to pause the playback of a song or video
+- `/skip` - to skip songs or videos
+- `/end` - to end playback
+## ꜱᴜᴘᴘᴏʀᴛ ᴀɴᴅ ᴜᴘᴅᴀᴛᴇꜱ 🎑
+<a href="https://t.me/World_FriendShip_Zone"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/Demon_Creators"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
 
-## KREDIT ✨
-- [Group Music Random](https://t.me/GroupMusicRandom)
-- [Dan](https://github.com/delivrance) for [Pyrogram](https://github.com/pyrogram/pyrogram)
-- [Laky](https://github.com/Laky-64) for [PyTgCalls](https://github.com/pytgcalls/pytgcalls)
+## 🕸 ᴄʀᴇᴅɪᴛ 🕸
+- [ꜱᴜᴍɪᴛ ʏᴀᴅᴀᴠ](https://github.com/Sumit9969)
+- [ɢʀᴏᴜᴘ ᴍᴜꜱɪᴄ ʀᴀɴᴅᴏᴍ](https://t.me/GroupMusicRandom)
+- [ᴅᴀɴ](https://github.com/delivrance) for [Pyrogram](https://github.com/pyrogram/pyrogram)
+- [ʟᴀᴋʏ](https://github.com/Laky-64) for [PyTgCalls](https://github.com/pytgcalls/pytgcalls)
