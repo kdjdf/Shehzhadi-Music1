@@ -237,9 +237,7 @@ async def vsong(client, message: Message):
 
     pablo = await client.send_message(message.chat.id, f"**🔎 ʟᴏᴏᴋ ғᴏʀ** `{urlissed}`")
     if not urlissed:
-        await pablo.edit(
-            "ɪɴᴠᴀʟɪᴅ ᴄᴏᴍᴍᴀɴᴅ sʏɴᴛᴀx ᴘʟᴇᴀsᴇ ᴄʜᴇᴄᴋ ʜᴇʟᴘ ᴍᴇɴᴜ ᴛᴏ ᴋɴᴏᴡ  ᴍᴏʀᴇ"
-        )
+        await pablo.edit("ɪɴᴠᴀʟɪᴅ ᴄᴏᴍᴍᴀɴᴅ sʏɴᴛᴀx ᴘʟᴇᴀsᴇ ᴄʜᴇᴄᴋ ʜᴇʟᴘ ᴍᴇɴᴜ ᴛᴏ ᴋɴᴏᴡ  ᴍᴏʀᴇ")
         return
 
     search = SearchVideos(f"{urlissed}", offset=1, mode="dict", max_results=1)
