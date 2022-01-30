@@ -40,7 +40,7 @@ async def ping(client, m: Message):
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
     await m_reply.edit(
-        f"<b>🏓 PONG</b> `{delta_ping * 1000:.3f} ms` \n<b>⏳ AKTIF</b> - `{uptime}`"
+        f"<b>😂 𝙿𝙾𝙽𝙶</b> `{delta_ping * 1000:.3f} ms` \n<b>⏳ 𝙰𝙲𝚃𝙸𝚅𝙴</b> - `{uptime}`"
     )
 
 
@@ -58,7 +58,7 @@ async def restart(client, m: Message):
     await loli.edit("7")
     await loli.edit("8")
     await loli.edit("9")
-    await loli.edit("**✅ Userbot Di Mulai Ulang**")
+    await loli.edit("**✅ ᴜsᴇʀʙᴏᴛ ʀᴇsᴛᴀʀᴛᴇᴅ**")
     os.execl(sys.executable, sys.executable, *sys.argv)
     quit()
 
@@ -67,27 +67,29 @@ async def restart(client, m: Message):
 async def help(client, m: Message):
     await m.delete()
     HELP = f"""
-<b>👋 Hallo {m.from_user.mention}!
+<b>❤️ ʜᴇʟʟᴏ {m.from_user.mention}!
 
-🛠 MENU BANTUAN
+🛠  Hᴇʟᴘ Mᴇɴᴜ
 
-⚡ PERINTAH UNTUK SEMUA ORANG
-• {HNDLR}play [judul lagu | link youtube | balas file audio] - untuk memutar lagu
-• {HNDLR}vplay [judul video | link youtube | balas file video] - untuk memutar video
-• {HNDLR}playlist untuk melihat daftar putar
-• {HNDLR}ping - untuk cek status
-• {HNDLR}help - untuk melihat daftar perintah
+»Cᴏᴍᴍᴀɴᴅs Fᴏʀ Eᴠᴇʀʏᴏɴᴇ
 
-⚡ PERINTAH UNTUK SEMUA ADMIN
-• {HNDLR}resume - untuk melanjutkan pemutaran lagu atau video
-• {HNDLR}pause - untuk untuk menjeda pemutaran lagu atau video
-• {HNDLR}skip - untuk melewati lagu atau video
-• {HNDLR}end - untuk mengakhiri pemutaran</b>
+• {HNDLR}ᴘʟᴀʏ [sᴏɴɢ ᴛɪᴛᴇʟ|ʏᴏᴜᴛᴜʙᴇ ʟɪɴᴋ| ʀᴇᴘʟʏ ᴀᴜᴅɪᴏ-ғɪʟᴇ] - Tᴏ ᴘʟᴀʏ ᴛʜᴇ sᴏɴɢ
+• {HNDLR}ᴠᴘʟᴀʏ [ᴠɪᴅᴇᴏ ᴛɪᴛʟᴇ| ʏᴏᴜᴛᴜʙᴇ ʟɪɴᴋ | ʀᴇᴘʟʏ ᴠɪᴅᴇᴏ ғɪʟᴇ] - ᴛᴏ ᴘʟᴀʏ ᴠɪᴅᴇᴏ 
+• {HNDLR}ᴘʟᴀʏʟɪsᴛ ᴛᴏ ᴠɪᴇᴡ ᴠɪᴅᴇᴏ 
+• {HNDLR}ᴘɪɴɢ - ᴛᴏ ᴄʜᴇᴄᴋ sᴛᴀᴛᴜs
+• {HNDLR}ʜᴇʟᴘ - ᴛᴏ ᴠɪᴇᴡ ᴀ ʟɪsᴛ ᴏғ ᴄᴏᴍᴍᴀɴᴅ
+
+»Cᴏᴍᴍᴀɴᴅs Fᴏʀ Aʟʟ Aᴅᴍɪɴs
+
+• {HNDLR}ʀᴇsᴜᴍᴇ - ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ ᴘʟᴀʏɪɴɢ ᴛʜᴇ sᴏɴɢ ᴏʀ ᴠɪᴅᴇᴏ 
+• {HNDLR}ᴘᴀᴜsᴇ - ᴛᴏ ᴘᴀᴜsᴇ ᴛʜᴇ ᴘʟᴀʏʙᴀᴄᴋ ᴏғ ᴀ sᴏɴɢ ᴏʀ ᴠɪᴅᴇᴏ 
+• {HNDLR}sᴋɪᴘ - ᴛᴏ sᴋɪᴘ ᴀ sᴏɴɢ ᴏʀ ᴠɪᴅᴇᴏ 
+• {HNDLR}ᴇɴᴅ - ᴛᴏ ᴇɴᴅ ᴘʟᴀʏʙᴀᴄᴋ </b>
 """
     await m.reply(HELP)
 
 
-@Client.on_message(filters.command(["repo"], prefixes=f"{HNDLR}"))
+@Client.on_message(filters.command(["repo", "sumit", "openbaby"], prefixes=f"{HNDLR}"))
 async def repo(client, m: Message):
     await m.delete()
     REPO = f"""
