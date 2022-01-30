@@ -93,52 +93,22 @@ async def help(client, m: Message):
 async def repo(client, m: Message):
     await m.delete()
     REPO = f"""
-<b>👋 Hallo {m.from_user.mention}!
+<b>❤️ ʜᴇʟʟᴏ {m.from_user.mention}!
+      ✪ 🆂︎ʜᴇᴢʜᴀᴅɪ 🅼︎ᴜsɪᴄ ✪
 
-🎶 Music Dan Video Player UserBot
-
-🤖 Telegram UserBot Untuk Memutar Lagu Dan Video Di Obrolan Suara Telegram.
-
-✨ Dipersembahkan Oleh 
-• [PyTgCalls](https://github.com/pytgcalls/pytgcalls)
-• [Pyrogram](https://github.com/pyrogram/pyrogram)
+ ᴛᴇʟᴇɢʀᴀᴍ Usᴇʀʙᴏᴛ ᴛᴏ ᴘʟᴀʏ sᴏɴɢs ᴀɴᴅ ᴠɪᴅᴇᴏs ɪɴ ᴛᴇʟᴇɢʀᴀᴍ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ sᴜᴍɪᴛ ʏᴀᴅᴀᴠ.
 
 
-📝 Persyaratan
-• Python 3.8+
-• FFMPEG
-• Nodejs v16+
-
-🛠 MENU BANTUAN
-
-⚡ PERINTAH UNTUK SEMUA ORANG
-• `/play [judul lagu | link youtube | balas file audio]` - untuk memutar lagu
-• `/vplay [judul video | link youtube | balas file video]` - untuk memutar video
-• `/playlist` untuk melihat daftar putar
-• `/ping` - untuk cek status
-• `/help` - untuk melihat daftar perintah
-
-⚡ PERINTAH UNTUK SEMUA ADMIN
-• `/resume` - untuk melanjutkan pemutaran lagu atau video
-• `/pause` - untuk untuk menjeda pemutaran lagu atau video
-• `/skip` - untuk melewati lagu atau video
-• `/end` - untuk mengakhiri pemutaran
-
-💡 Deployment
-
-💜 Heroku
-
- [𝗗𝗘𝗣𝗟𝗢𝗬 𝗞𝗘 𝗛𝗘𝗥𝗢𝗞𝗨](https://heroku.com/deploy?template=https://github.com/XtomiSN/MusicAndVideoPlayer)
-
-📚 Variabel Yang Dibutuhkan
-• `API_ID` - Dapatkan Dari [my.telegram.org](https://my.telegram.org)
-• `API_HASH` - Dapatkan Dari [my.telegram.org](https://my.telegram.org)
-• `SESSION` - Sesi String Pyrogram. Dapatkan String Dari [Sini](https://replit.com/@GoodBoysExe/string-session?lite=1&outputonly=1)
-• `SUDO_USER` - ID Akun Telegram Yang Digunakan Sebagai Admin
+• [Yᴏᴜᴛᴜʙᴇ](https://youtube.com/channel/UCtI7hbY-BD7wvuIzoSU0cEw)
+• [Uᴘᴅᴀᴛᴇ](https://t.me/Demon_Creators)
 
 
-🔥 KREDIT 
-• [Dan](https://github.com/delivrance) untuk [Pyrogram](https://github.com/pyrogram/pyrogram)
-• [Laky](https://github.com/Laky-64) untuk [PyTgCalls](https://github.com/pytgcalls/pytgcalls)</b>
+»  ✪ ᴘᴀɪᴅ ᴅᴇᴘʟᴏʏ ✪
+
+ᴛʜᴇ ᴏɴᴇ ᴡʜᴏ ɪꜱ ɪɴᴛᴇʀᴇꜱᴛᴇᴅ ᴛᴏ ᴅᴇᴘʟᴏʏ ᴛʜɪꜱ ᴜꜱᴇʀʙᴏᴛ ᴏɴ ʜᴇʀᴏᴋᴜ ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴘᴀʏ ꜰᴏʀ ᴛʜᴀᴛ ᴏʀ ɪᴛ ɪꜱɴ'ᴛ ꜰʀᴇᴇ ᴄᴀɴ ᴄᴏɴᴛᴀᴄᴛ ᴛʜɪꜱ ɪ'ᴅ :- @Simple_Mundaa 
+
+ᴄʜᴇᴀᴘ ᴘʀɪᴄᴇ:- 50ʀs  
+
+ᴛʜᴀɴᴋ ʏᴏᴜ ❥︎❣︎ </b>
 """
     await m.reply(REPO, disable_web_page_preview=True)
