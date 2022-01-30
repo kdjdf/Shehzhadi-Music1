@@ -1,20 +1,20 @@
 {
-    "name": "Music Dan Video Player UserBot",
-    "description": "Telegram UserBot Untuk Memutar Lagu Dan Video Di Obrolan Suara Telegram.",
+    "name": "🆂︎ʜᴇᴢʜᴀᴅɪ 🅼︎ᴜsɪᴄ ",
+    "description": "ᴛᴇʟᴇɢʀᴀᴍ Usᴇʀʙᴏᴛ ᴛᴏ ᴘʟᴀʏ sᴏɴɢs ᴀɴᴅ ᴠɪᴅᴇᴏs ɪɴ ᴛᴇʟᴇɢʀᴀᴍ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ sᴜᴍɪᴛ ʏᴀᴅᴀᴠ.",
     "logo": "https://telegra.ph/file/e99fd5f4e72127ed67c65.jpg",
     "keywords": [
         "Telegram",
         "MusicPlayer",
         "VideoPlayer"
     ],
-    "repository": "https://github.com/XtomiSN/MusicAndVideoPlayer",
+    "repository": "https://github.com/Sumit9969/Shezhadi-Music",
     "env": {
         "SESSION": {
-            "description": "Pyrogram String Session",
+            "description": "𝚙𝚢𝚛𝚘𝚐𝚛𝚊𝚖 𝚂𝚝𝚛𝚒𝚗𝚐 𝚂𝚎𝚜𝚜𝚒𝚘𝚗",
             "required": true
         },
         "API_ID": {
-            "description": "Masukan APP ID Silahkan Ambil dari my.telegram.org/apps",
+            "description": "𝙴𝚗𝚝𝚎𝚛 𝚈𝚘𝚞𝚛 𝙰𝙿𝙸 𝙸𝙳  𝙵𝚛𝚘𝚖  http://my.telegram.org/apps",
             "required": true
         },
         "HNDLR": {
