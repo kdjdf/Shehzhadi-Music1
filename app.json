@@ -10,7 +10,7 @@
     "repository": "https://github.com/Sumit9969/Shezhadi-Music",
     "env": {
         "SESSION": {
-            "description": "𝚙𝚢𝚛𝚘𝚐𝚛𝚊𝚖 𝚂𝚝𝚛𝚒𝚗𝚐 𝚂𝚎𝚜𝚜𝚒𝚘𝚗",
+            "description": "𝙿𝚢𝚛𝚘𝚐𝚛𝚊𝚖 𝚂𝚝𝚛𝚒𝚗𝚐 𝚂𝚎𝚜𝚜𝚒𝚘𝚗",
             "required": true
         },
         "API_ID": {
@@ -18,16 +18,16 @@
             "required": true
         },
         "HNDLR": {
-            "description": "ini akan digunakan sebagai prefix di semua perintah",
+            "description": "𝙸𝚝 𝚠𝚒𝚕𝚕 𝚋𝚎 𝚞𝚜𝚎𝚍 𝚊𝚜 𝚙𝚛𝚎𝚏𝚒𝚡 𝚒𝚗 𝚊𝚕𝚕 𝚌𝚘𝚖𝚖𝚊𝚖𝚍𝚜",
             "required": false,
             "value": "/"
         },
         "API_HASH": {
-            "description": "Masukan API HASH Silahkan Ambil dari my.telegram.org/apps",
+            "description": "𝙴𝚗𝚝𝚎𝚛 𝚈𝚘𝚞𝚛 𝙷𝙰𝚂𝙷 𝙸𝙳  𝙵𝚛𝚘𝚖  http://my.telegram.org/apps",
             "required": true
         },
         "SUDO_USERS": {
-            "description": "Daftar User ID pengguna dihitung sebagai admin di semua tempat (pemisah menggunakan space)",
+            "description": "𝙻𝚒𝚜𝚝 𝚘𝚏 𝚞𝚜𝚎𝚛𝚜 𝙸𝙳 𝚞𝚜𝚎𝚛𝚜 𝚌𝚘𝚞𝚗𝚝 𝚊𝚜 𝚊𝚍𝚖𝚒𝚗 𝚎𝚟𝚎𝚛𝚢𝚠𝚑𝚎𝚛𝚎 (𝚜𝚎𝚙𝚊𝚛𝚊𝚝𝚎 𝚞𝚜𝚒𝚗𝚐 𝚜𝚙𝚊𝚌𝚎)",
             "required": true
         }
     },
