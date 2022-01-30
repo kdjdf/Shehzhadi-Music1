@@ -23,10 +23,10 @@ async def song(client, message: Message):
     if not urlissed:
         await client.send_message(
             message.chat.id,
-            "Sintaks Perintah Tidak Valid, Silakan Periksa Menu Bantuan Untuk Tahu Lebih Banyak!",
+            "ɪɴᴠᴀʟɪᴅ ᴄᴏᴍᴍᴀɴᴅ sʏɴᴛᴀx ᴘʟᴇᴀsᴇ ᴄʜᴇᴄᴋ ʜᴇʟᴘ ᴍᴇɴᴜ ᴛᴏ ᴋɴᴏᴡ  ᴍᴏʀᴇ",
         )
         return
-    pablo = await client.send_message(message.chat.id, f"**🔎 Mencari** `{urlissed}`")
+    pablo = await client.send_message(message.chat.id, f"**🔎 ʟᴏᴏᴋ ғᴏʀ ** `{urlissed}`")
     search = SearchVideos(f"{urlissed}", offset=1, mode="dict", max_results=1)
     mi = search.result()
     mio = mi["search_result"]
@@ -61,7 +61,7 @@ async def song(client, message: Message):
         with YoutubeDL(opts) as ytdl:
             ytdl_data = ytdl.extract_info(mo, download=True)
     except Exception as e:
-        await pablo.edit(f"**Failed To Download** \n**Error :** `{str(e)}`")
+        await pablo.edit(f"**ғᴀɪʟᴇᴅ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ** \n**ᴇʀʀᴏʀ :** `{str(e)}`")
         return
     c_time = time.time()
     capy = f"""
@@ -81,7 +81,7 @@ async def song(client, message: Message):
         progress_args=(
             pablo,
             c_time,
-            f"**📥 Download** `{urlissed}`",
+            f"**📥 ᴅᴏᴡɴʟᴏᴀᴅ** `{urlissed}`",
             file_stark,
         ),
     )
@@ -235,10 +235,10 @@ def time_to_seconds(time):
 async def vsong(client, message: Message):
     urlissed = get_text(message)
 
-    pablo = await client.send_message(message.chat.id, f"**🔎 Mencari** `{urlissed}`")
+    pablo = await client.send_message(message.chat.id, f"**🔎 ʟᴏᴏᴋ ғᴏʀ** `{urlissed}`")
     if not urlissed:
         await pablo.edit(
-            "Sintaks Perintah Tidak Valid, Silakan Periksa Menu Bantuan Untuk Tahu Lebih Banyak!"
+            "ɪɴᴠᴀʟɪᴅ ᴄᴏᴍᴍᴀɴᴅ sʏɴᴛᴀx ᴘʟᴇᴀsᴇ ᴄʜᴇᴄᴋ ʜᴇʟᴘ ᴍᴇɴᴜ ᴛᴏ ᴋɴᴏᴡ  ᴍᴏʀᴇ"
         )
         return
 
@@ -269,7 +269,7 @@ async def vsong(client, message: Message):
         with YoutubeDL(opts) as ytdl:
             ytdl_data = ytdl.extract_info(url, download=True)
     except Exception as e:
-        await event.edit(event, f"**Gagal Mengunduh** \n**Kesalahan :** `{str(e)}`")
+        await event.edit(event, f"**ᴅᴏᴡɴʟᴏᴀᴅ ғᴀɪʟᴇᴅ** \n**Kesalahan :** `{str(e)}`")
         return
     c_time = time.time()
     file_stark = f"{ytdl_data['id']}.mp4"
@@ -289,7 +289,7 @@ async def vsong(client, message: Message):
         progress_args=(
             pablo,
             c_time,
-            f"**📥 Download** `{urlissed}`",
+            f"**📥 ᴅᴏᴡɴʟᴏᴀᴅ** `{urlissed}`",
             file_stark,
         ),
     )
