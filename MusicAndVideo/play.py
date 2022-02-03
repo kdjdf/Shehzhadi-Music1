@@ -139,7 +139,7 @@ async def play(client, m: Message):
             await m.reply("ʀᴇᴘʟʏ ᴛᴏ ᴀᴜᴅɪᴏ ғɪʟᴇ ᴏʀ ɢɪᴠᴇ sᴏᴍᴇᴛʜɪɴɢ ғᴏʀ sᴇᴀʀᴄʜ ")
         else:
             await m.delete()
-            huehue = await m.reply("🔍 sᴇᴀʀᴄʜ")
+            huehue = await m.reply("🔍 sᴇᴀʀᴄʜɪɴɢ")
             query = m.text.split(None, 1)[1]
             search = ytsearch(query)
             if search == 0:
@@ -264,7 +264,7 @@ async def vplay(client, m: Message):
             await m.reply("**ʀᴇᴘʟʏ ᴛᴏ ᴀᴜᴅɪᴏ ғɪʟᴇ ᴏʀ ɢɪᴠᴇ sᴏᴍᴇᴛʜɪɴɢ ғᴏʀ sᴇᴀʀᴄʜ**")
         else:
             await m.delete()
-            huehue = await m.reply("**🔎 sᴇᴀʀᴄʜ")
+            huehue = await m.reply("**🔎 sᴇᴀʀᴄʜɪɴɢ")
             query = m.text.split(None, 1)[1]
             search = ytsearch(query)
             Q = 720
@@ -335,7 +335,7 @@ async def playfrom(client, m: Message):
             limit = 10
             lmt = 9
         await m.delete()
-        hmm = await m.reply(f"🔎 sᴇᴀʀᴄʜ {limit} ʀᴀɴᴅᴏᴍ sᴏɴɢ ғʀᴏᴍ {chat}**")
+        hmm = await m.reply(f"🔎 sᴇᴀʀᴄʜɪɴɢ {limit} ʀᴀɴᴅᴏᴍ sᴏɴɢ ғʀᴏᴍ {chat}**")
         try:
             async for x in bot.search_messages(chat, limit=limit, filter="audio"):
                 location = await x.download()
