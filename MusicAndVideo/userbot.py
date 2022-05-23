@@ -94,21 +94,19 @@ async def repo(client, m: Message):
     await m.delete()
     REPO = f"""
 <b>❤️ ʜᴇʟʟᴏ {m.from_user.mention}!
-      ✪ 🆂︎ʜᴇᴢʜᴀᴅɪ 🅼︎ᴜsɪᴄ ✪
+      ✪ 🆂︎ʜᴇʜᴢʜᴀᴅɪ 🅼︎ᴜsɪᴄ ✪
 
  ᴛᴇʟᴇɢʀᴀᴍ Usᴇʀʙᴏᴛ ᴛᴏ ᴘʟᴀʏ sᴏɴɢs ᴀɴᴅ ᴠɪᴅᴇᴏs ɪɴ ᴛᴇʟᴇɢʀᴀᴍ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ sᴜᴍɪᴛ ʏᴀᴅᴀᴠ.
 
+»  sᴜʙsᴄʀɪʙᴇ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ
+• [ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ](https://youtube.com/channel/UCtI7hbY-BD7wvuIzoSU0cEw)
+• [ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ](https://t.me/Demon_Creators)
 
-• [Yᴏᴜᴛᴜʙᴇ](https://youtube.com/channel/UCtI7hbY-BD7wvuIzoSU0cEw)
-• [Uᴘᴅᴀᴛᴇ](https://t.me/Demon_Creators)
 
-
-»  ✪ ᴘᴀɪᴅ ᴅᴇᴘʟᴏʏ ✪
-
-ᴛʜᴇ ᴏɴᴇ ᴡʜᴏ ɪꜱ ɪɴᴛᴇʀᴇꜱᴛᴇᴅ ᴛᴏ ᴅᴇᴘʟᴏʏ ᴛʜɪꜱ ᴜꜱᴇʀʙᴏᴛ ᴏɴ ʜᴇʀᴏᴋᴜ ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴘᴀʏ ꜰᴏʀ ᴛʜᴀᴛ ᴏʀ ɪᴛ ɪꜱɴ'ᴛ ꜰʀᴇᴇ ᴄᴀɴ ᴄᴏɴᴛᴀᴄᴛ ᴛʜɪꜱ ɪ'ᴅ :- @Simple_Mundaa 
-
-ᴄʜᴇᴀᴘ ᴘʀɪᴄᴇ:- 50ʀs  
-
-ᴛʜᴀɴᴋ ʏᴏᴜ ❥︎❣︎ </b>
+»  ✪ ᴊᴏɪɴ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ✪
+ • ғɪʀsᴛ ᴊᴏɪɴ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ᴀɴᴅ ᴛʜᴇɴ ᴛʏᴘᴇ #Shehzhadi-Music-Userbot
+» sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ || [ᴅᴇᴍᴏɴ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ](https://t.me/Demon_Support_Group) 
+ 
+ </b>
 """
     await m.reply(REPO, disable_web_page_preview=True)
