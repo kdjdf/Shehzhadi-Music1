@@ -35,7 +35,3 @@
 ## ꜱᴜᴘᴘᴏʀᴛ ᴀɴᴅ ᴜᴘᴅᴀᴛᴇꜱ 🎑
 <a href="https://t.me/Demon_Support_Group"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/Demon_Creators"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
 
-## 🕸 ᴄʀᴇᴅɪᴛ 🕸
-- [ꜱᴜᴍɪᴛ ʏᴀᴅᴀᴠ](https://github.com/Sumit9969)
-- [ᴅᴀɴ](https://github.com/delivrance) for [Pyrogram](https://github.com/pyrogram/pyrogram)
-- [ʟᴀᴋʏ](https://github.com/Laky-64) for [PyTgCalls](https://github.com/pytgcalls/pytgcalls)
